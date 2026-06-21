@@ -75,6 +75,7 @@ export async function assertSemConflito(
   if (conflito) {
     const fmt = (d: Date) =>
       d.toLocaleString("pt-BR", {
+        timeZone: "America/Sao_Paulo",
         day: "2-digit",
         month: "2-digit",
         year: "numeric",
